@@ -1,0 +1,28 @@
+{
+  "name": "proxy",
+  "version": "1.0.0",
+  "main": "getters.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "apicache": "^1.6.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.4.0",
+    "heroku": "^9.1.0",
+    "needle": "^3.3.1"
+  },
+  "devDependencies": {
+    "@types/apicache": "^1.6.6",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/needle": "^3.3.0",
+    "nodemon": "^3.1.4"
+  }
+}
